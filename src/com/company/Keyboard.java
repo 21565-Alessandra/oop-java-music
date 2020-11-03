@@ -17,7 +17,7 @@ public class Keyboard extends Piano {
     @Override
     public void Move(int time, String band) {
 
-        MessageCentre.DebugMessage(String.format("I am playing %b %t times per day", band, time));
+        MessageCentre.DebugMessage(String.format("I am playing %b at least %t times per day", band, time));
     }
 }
 
