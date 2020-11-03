@@ -30,7 +30,6 @@ public class TestRun {
 
     public void RunObjects() {
 
-        // Vehicle v1 = new Vehicle(); // abstract, cannot be instantiated
 
 
         ElectricGuitar e1 = new ElectricGuitar();
